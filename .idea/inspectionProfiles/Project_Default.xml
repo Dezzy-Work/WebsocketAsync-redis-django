@@ -1,0 +1,70 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <Languages>
+        <language minSize="57" name="Python" />
+      </Languages>
+    </inspection_tool>
+    <inspection_tool class="PyInterpreterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="6">
+            <item index="0" class="java.lang.String" itemvalue="environs" />
+            <item index="1" class="java.lang.String" itemvalue="SQLAlchemy" />
+            <item index="2" class="java.lang.String" itemvalue="aiogram" />
+            <item index="3" class="java.lang.String" itemvalue="aiocryptopay" />
+            <item index="4" class="java.lang.String" itemvalue="discord" />
+            <item index="5" class="java.lang.String" itemvalue="discord.py" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N806" />
+          <option value="N802" />
+          <option value="N803" />
+          <option value="N813" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyRedeclarationInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="exit" />
+          <option value="format" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="test.push_receiver" />
+          <option value="django.db.models.fields.CharField.__add__" />
+          <option value="backend.src.proj.urls.words" />
+          <option value="bot.src.bot_app.random_ten.bot_app" />
+          <option value="todowooo.todo.views.IntegrityError" />
+          <option value="todowooo.todo.models.ToDo.*" />
+          <option value="testsite.testsite.urls.news" />
+          <option value="speech_recognition" />
+          <option value="dict.choices" />
+          <option value="tg_sender" />
+          <option value="set.__add__" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
